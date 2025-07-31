@@ -18049,4 +18049,20 @@ tr {
   }
 }
 
+.form-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 10%;
+}
+
+.form-section1 {
+  background-color: transparent;
+}
+
+.form-section1::before {
+  background: url("../images/form-section1.jpg") no-repeat center center/cover fixed;
+}
+
 /*# sourceMappingURL=styles.css.map */
